@@ -1,0 +1,82 @@
+/*
+
+#fff8dc
+
+*/
+
+body {
+    background-color: white;
+}
+
+.buttonset {
+    padding-top: 150px;
+    text-align: center;
+    float: none;
+}
+
+.introduction {
+    padding-top: 0px 0;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.title {
+    padding-top: 220px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn {
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 12px;
+    /* border-radius: 100%; */
+    background-color: transparent; /* 透明 */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.btn-space {
+    margin-right: 20px;
+}
+
+/*清除btn按钮点击出现的边框*/
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none !important; box-shadow:none !important; 
+}
+
+
+/* .btn {
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 35px;
+    vertical-align: middle;
+    background: #e3164e;
+    background-size: 1000% 1000%;
+    -webkit-animation: gradient 10s ease infinite;
+    -moz-animation: gradient 10s ease infinite;
+    -o-animation: Agradient 10s ease infinite;
+    animation: gradient 10s ease infinite;
+}
+.btn:hover {
+    background-color: #000000;
+} */

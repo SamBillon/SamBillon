@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <!-- 引入 Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- 引入 JQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- 淡入淡出 -->
+    <script>
+        function fading() {
+            $("#div1").fadeIn(1000);
+            $("#div2").fadeIn(1000);
+            $("#div3").fadeIn(1000);
+        }
+    </script>
+    
+    <link href="css/my_css.css" rel="stylesheet">
+
+    <title>SamBillon 的主页</title>
+    
+</head>
+<body onload = "fading()">
+    
+    <div id="div1" class="title" style="display:none">404</div>
+    <div id="div2" class="introduction" style="display:none">啊哦，你来到了没有知识的荒原</div>
+    <div id="div3" class="container buttonset" style="display:none">
+        <a type="button" class="btn btn-space" href="index.html">返回首页</a>
+    </div>
+    
+</body>
