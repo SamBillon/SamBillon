@@ -39,6 +39,10 @@ body {
     color: black;
 }
 
+.col {
+    height: 75px;
+}
+
 .btn {
     width: 150px;
     border: 2px solid black;
