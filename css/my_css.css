@@ -8,15 +8,20 @@ body {
     background-color: white;
 }
 
+
+.top-buffer {
+    margin-top:20px;
+}
+
 .row {
     margin-right: 50px;
     margin-left: 50px;
 }
 
 .buttonset {
-    padding-top: 150px;
-    text-align: center;
-    float: none;
+    padding-top: 100px;
+    /* text-align: center;
+    float: none; */
 }
 
 .introduction {
