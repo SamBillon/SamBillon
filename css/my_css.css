@@ -33,7 +33,15 @@ body {
         margin-top:0;
     }
 }
-     
+
+.navbar-collapse .navbar-nav > li > a {
+    transition-duration: 0.4s;
+}
+.navbar-collapse .navbar-nav > li > a:hover {
+    color: white;
+    background-color: black;
+}
+
 
 .buttonset {
     padding-top: 100px;
@@ -49,7 +57,7 @@ body {
 }
 
 .title {
-    padding-top: 220px;
+    padding-top: 150px;
     text-align: center;
     font-size: 80px;
     font-weight: bold;
